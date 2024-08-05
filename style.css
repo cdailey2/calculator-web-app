@@ -1,0 +1,25 @@
+/* BASIC HTML RESET */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* THE FOLLOWING BREAKPOINTS WERE CHOSEN BASED ON BOOTSTRAP */
+
+/* SMARTPHONES */
+
+
+
+/* TABLETS */
+@media (min-width: 576px) {
+
+}
+
+/* LAPTOPS & DESKTOPS */
+@media (min-width: 992px) {
+    
+}
