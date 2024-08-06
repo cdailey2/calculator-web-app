@@ -1,17 +1,22 @@
-/* BASIC HTML RESET */
-html {
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+html, body {
+    height:100%;
 }
-
 
 /* THE FOLLOWING BREAKPOINTS WERE CHOSEN BASED ON BOOTSTRAP */
 
 /* SMARTPHONES */
+#calculator {
+    height:100%;
+    width:100%;
 
+    background-color:black;
+}
 
 
 /* TABLETS */
@@ -22,4 +27,9 @@ html {
 /* LAPTOPS & DESKTOPS */
 @media (min-width: 992px) {
     
+}
+
+/* PERTAINS TO ALL */
+#display {
+    width:100%;
 }
