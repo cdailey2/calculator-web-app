@@ -69,10 +69,40 @@ button {
 
 .function-button {
     background-color: #A5A5A5;
-    font-size: 150%;
+    font-size: 200%;
 }
 
+.function-button:active {
+    background-color: #D9D9D9;
+}
 
+.operation-button {
+    background-color: #FF9F0B;
+}
+
+.operation-img {
+    height:45%;
+    width:auto;
+}
+
+.operation-button:focus {
+    background-color: white;
+}
+
+.hidden {
+    display:none;
+}
+
+.value-button {
+    background-color: #333333;
+    color:white;
+
+    font-size: 230%;
+}
+
+.value-button:active {
+    background-color: #737373;
+}
 
 
 
